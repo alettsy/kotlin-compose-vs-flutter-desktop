@@ -1,0 +1,28 @@
+name: infinite_list_bloc
+description: An infinite list with Bloc (based on tutorial).
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  bloc: ^8.1.0
+  bloc_concurrency: ^0.2.0
+  equatable: ^2.0.3
+  flutter_bloc: ^8.1.1
+  http: ^0.13.0
+  stream_transform: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  bloc_test: ^9.0.0
+  mocktail: ^1.0.0
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
