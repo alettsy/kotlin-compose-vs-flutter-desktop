@@ -5,27 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d00738df-b691-4e2f-aacd-d561972f4f04" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../infinite_list_bloc/lib/posts/bloc/post_bloc.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../infinite_list_bloc/lib/posts/bloc/post_event.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../infinite_list_bloc/lib/posts/bloc/post_state.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../infinite_list_bloc/lib/posts/models/models.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../infinite_list_bloc/lib/posts/models/post.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../infinite_list_bloc/lib/posts/view/posts_list.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../infinite_list_bloc/lib/posts/view/posts_page.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../infinite_list_bloc/lib/posts/widgets/bottom_loader.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../infinite_list_bloc/lib/posts/widgets/post_list_item.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../infinite_list_bloc/lib/simple_bloc_observer.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/benchmarks/primes.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/infinite_list/LazyList.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/infinite_list/ListItem.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/infinite_list/Post.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/infinite_list/PostManager.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/infinite_list/api.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../infinite_list_bloc/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../infinite_list_bloc/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -109,7 +88,7 @@
       <workItem from="1694864768518" duration="38000" />
       <workItem from="1694864813199" duration="62000" />
       <workItem from="1694864970061" duration="277000" />
-      <workItem from="1694865265100" duration="8546000" />
+      <workItem from="1694865265100" duration="8862000" />
     </task>
     <servers />
   </component>

@@ -33,7 +33,8 @@ fun App() {
             )
             Button(onClick = {
                 val time = measureTimeMillis {
-                    primes(200000)
+                    val x = primes(200000)
+                    println(x.last())
                 }
                 println("Time taken (ms): $time")
             }){
