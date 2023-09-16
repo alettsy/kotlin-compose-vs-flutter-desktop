@@ -1,25 +1,44 @@
 import androidx.compose.desktop.ui.tooling.preview.Preview
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.padding
 import androidx.compose.material.Button
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
-import androidx.compose.runtime.setValue
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Window
 import androidx.compose.ui.window.application
+import benchmarks.primes
+import infinite_list.LazyList
+import infinite_list.PostManager
+import kotlin.system.measureTimeMillis
 
 @Composable
 @Preview
 fun App() {
-    var text by remember { mutableStateOf("Hello, World!") }
+    val posts = PostManager()
+
+    fun needMore() {
+        println("getting more posts")
+        posts.getPosts()
+    }
 
     MaterialTheme {
-        Button(onClick = {
-            text = "Hello, Desktop!"
-        }) {
-            Text(text)
+        Row {
+            LazyList(
+                modifier = Modifier.padding(all=5.dp),
+                posts = posts.posts,
+                onLoadMore = { needMore() }
+            )
+            Button(onClick = {
+                val time = measureTimeMillis {
+                    primes(200000)
+                }
+                println("Time taken (ms): $time")
+            }){
+                Text("Primes")
+            }
         }
     }
 }
